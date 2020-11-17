@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-size: 12px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("../img/t1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+form{
+    margin: 0 auto;
+    margin-top:10%;
+    background-color: #ffffff;
+    color: #3a3a3a;
+    padding: 30px;
+    box-shadow: rgba(0,0,0,.2) 3px 3px 3px;
+ }
+.form-control:hover{
+    border: 1px solid rgba(255, 99, 71, 0.5);
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid rgba(255, 99, 71, 0.5);
+    background-color: #ffffff;
+}

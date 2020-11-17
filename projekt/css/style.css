@@ -1,0 +1,187 @@
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+*{
+    box-sizing: border-box;
+    font-weight: lighter;
+    padding-right: 0;
+    padding-left: 0;
+}
+body{
+    background: url("../img/A.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+}
+.containter-grid{
+    
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.container-fluid{
+    margin-top:40px;
+    background-image: linear-gradient(135deg,#5683b1d0 0%,#204972d0 100%);
+}
+.navbar-inverse{
+    border:none;
+    color:white;
+    background-color: rgba(34, 34, 34, 0);
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #204972d0;
+}
+/*kliknięcie na navigacje*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #204972d0;
+    }
+    .dropdown-menu>li>a {
+    display: block;
+    padding:10px;
+    text-align: center;
+    }
+.dane{
+   padding-left: 1em;
+   padding-right: 1em;
+}
+.btn{
+    border: none;
+    border-radius: 0px;
+    }
+h3{
+    font-weight: lighter;
+}
+.section1{
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    left: 40px;
+}
+.section{
+    background-image: linear-gradient(135deg,#5683b1d0 0%,#204972d0 100%);
+    padding: 2em;
+    margin-top:150px;
+ }
+ .section label{
+     margin: 0 auto;
+     color:white;
+     padding-left:0;
+     padding-bottom:5px;
+}
+.section input{
+    border:none;
+    margin-bottom:10px;
+    padding: 3px;
+    border-radius: 2px;
+    color:lightslategray;
+ }
+ .kontakt{
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    color: #3a3a3a;
+    box-shadow: rgba(0,0,0,.2) 3px 3px 3px;
+ }
+ .log{
+    margin-top: 100px;
+ }
+label{
+    font-weight: lighter;
+}
+ .section .submit{
+    background-color: #ec442a;
+     color: white;
+     font-weight: lighter;
+ }
+.sekcja h4{
+    color: #ec442a;
+    font-family: 'Rubik';
+}
+.sekcja{
+    
+    background-color: #ffffff;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgb(37, 37, 37);
+    padding: 50px;
+    line-height: 2;
+}
+.stopka{
+    background: url("../img/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5em;
+    line-height: 2;
+}
+footer{
+    color: white;
+    background-color:rgb(37, 37, 37);
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+.sek{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.link{
+    list-style: none;
+    color: white;
+}
+.miasta{
+    border: 7px solid #ffffff;
+    background-color: #ffffff;
+    margin: 10px;
+}
+img{
+    width: 220px;
+    height: 180px;
+}
+s{
+    color:red;
+    font-size: 12px;
+}
+.cena{
+    text-align: center;
+}
+.cena p{
+    font-weight: bolder;
+}
+.sub{
+    color: #ffffff;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    border:none;
+    background-image: linear-gradient(135deg,#5683b1d0 0%,#204972d0 100%);
+}
+.wiersz{
+    padding: 5px;
+}
